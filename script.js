@@ -55,7 +55,7 @@ document.querySelector('#contact-form').addEventListener('submit',e=>{
     const [nome,email,tel,assunto]=f.querySelectorAll('input');
     const msg=f.querySelector('textarea').value;
     const texto=`Olá! Vim pelo site.\n\n*Nome:* ${nome.value}\n*E-mail:* ${email.value}\n*Telefone:* ${tel.value}\n*Assunto:* ${assunto.value}\n\n*Mensagem:*\n${msg}`;
-    window.open('https://wa.me/5519994989722?text='+encodeURIComponent(texto),'_blank');
+    window.open('https://wa.me/5519984216767?text='+encodeURIComponent(texto),'_blank');
     document.querySelector('#sent').hidden=false;
     f.reset()
 });
